@@ -72,3 +72,10 @@ i 显示为机器语言
 ## 生成core文件
 
 使用`generate-core-file`生成核心转储文件
+
+## record and replay
+
+gdb 可以记录程序的当前执行状态并进行返回，使用record full 可以开启记录功能。  
+* record goto begin： Go to the beginning of the execution log.
+* record goto end： Go to the end of the execution log.
+* record goto n： Go to instruction number n in the execution log. 
